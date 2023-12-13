@@ -59,7 +59,7 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-#Program:
+# Program:
 ```
 module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
@@ -73,17 +73,17 @@ nor(y6,a,b);
 xnor (y7,a,b);
 endmodule
 ```
- #RTL realization:
+ # RTL realization:
 
 ![WhatsApp Image 2023-12-13 at 17 54 37_3df1d45b](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/8b77d538-76ce-41c9-9bfc-675156d35b59)
 
-#Truth Table:
+# Truth Table:
 
 ![WhatsApp Image 2023-12-13 at 17 54 16_5bb0c1de](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/c786c394-1f84-4df7-9177-7884de766eef)
 
-#Timing Diagram:
+# Timing Diagram:
 
 ![WhatsApp Image 2023-12-13 at 17 55 00_febf774f](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/68016d94-437b-4c52-b8b3-a1a5dc79ffa1)
 
-#Result:
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
