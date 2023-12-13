@@ -1,4 +1,6 @@
-# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
+# NAME : ALTRIN AHAS A
+# REFERENCE NUMBER : 23011604
+# EXPERIMENT 1: Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -58,15 +60,30 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-/*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+```
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor(y6,a,b);
+xnor (y7,a,b);
+endmodule
+```
+RTL realization:
+
+![WhatsApp Image 2023-12-13 at 17 54 37_3df1d45b](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/8b77d538-76ce-41c9-9bfc-675156d35b59)
+
+Truth Table:
+
+![WhatsApp Image 2023-12-13 at 17 54 16_5bb0c1de](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/c786c394-1f84-4df7-9177-7884de766eef)
+
+Timing Diagram:
+
+![WhatsApp Image 2023-12-13 at 17 55 00_febf774f](https://github.com/altrinahas/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980038/68016d94-437b-4c52-b8b3-a1a5dc79ffa1)
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
